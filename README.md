@@ -154,7 +154,7 @@ This guide covers the core technical topics for DevOps, Cloud Infrastructure, SR
 * [12.6 Surviving the loss of an availability zone](#126-surviving-the-loss-of-an-availability-zone)
 * [12.7 Disaster recovery for Kubernetes workloads](#127-disaster-recovery-for-kubernetes-workloads)
 
-### [Part 13: Kubernetes in a networking solution (Nokia EDA)](#part-13-kubernetes-in-a-networking-solution-nokia-eda)
+### [Part 13: Kubernetes in a networking solution](#part-13-kubernetes-in-a-networking-solution-eda)
 * [13.1 Why Kubernetes suits a network automation platform](#131-why-kubernetes-suits-a-network-automation-platform)
 * [13.2 A reference architecture on Kubernetes](#132-a-reference-architecture-on-kubernetes)
 * [13.3 Operating it](#133-operating-it)
@@ -2738,9 +2738,9 @@ On one writable database, "zero downtime" means seconds of interruption hidden b
 * **Cutover:** In the recovery region, stand up or scale up the cluster, verify data replication and promotion, run smoke tests, switch DNS or Global Accelerator, and monitor SLOs.
 * **Validate:** Quarterly DR drills that actually restore from backups into a clean cluster and measure real RTO and RPO against targets.
 
-# Part 13: Kubernetes in a networking solution (Nokia EDA)
+# Part 13: Kubernetes in a networking solution
 
-Nokia Event Driven Automation (EDA) is a modern network automation platform for data center and cloud networks (SR Linux and others) built on Kubernetes, using Kubernetes's declarative APIs, controllers and CustomResourceDefinitions to manage network fabric intent, state and operations. Use this if you work on or interview for a Kubernetes-based networking automation platform (such as Nokia EDA), and adapt the details to what you know directly.
+Event Driven Automation (EDA) is a modern network automation platform for data center and cloud networks (SR Linux and others) built on Kubernetes, using Kubernetes's declarative APIs, controllers and CustomResourceDefinitions to manage network fabric intent, state and operations. Use this if you work on or interview for a Kubernetes-based networking automation platform, and adapt the details to what you know directly.
 
 ## 13.1 Why Kubernetes suits a network automation platform
 
